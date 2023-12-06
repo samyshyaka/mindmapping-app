@@ -1,0 +1,106 @@
+/* App.css */
+.mind-map {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 91vh; /* Adjust to fit the viewport height */
+  border: 1px solid #192636;
+  overflow: hidden;
+}
+
+.sidebar{
+  position: absolute;
+  left: 120px;
+}
+
+.canvas {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.node {
+  position: absolute;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.node.main-topic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.node input[type="text"] {
+  position: absolute;
+  border: none;
+  outline: none;
+  margin-left: 2px;
+  background-color: #f0f0f0;
+  font-size: inherit;
+  max-width: 93px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.logo {
+  height: 25px;
+  width: 25px;
+}
+
+.header{
+  height: 8vh;
+  display: flex;
+  flex-direction: row;
+  border: none;
+  justify-content: flex-start;
+  background-color: #192636;
+  align-items: center;
+  padding-left: 10px;
+  box-shadow: 0px 4px 4px #26394b;
+}
+
+.app-title {
+  font-size: 20px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  color: #f0f0f0;
+}
+
+.buttons {
+  position: absolute;
+  left: 90%;
+  top: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.add-icon {
+  margin-bottom: 5px;
+  border: none;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  color: #f0f0f0;
+  background-color: #192636;
+  cursor: pointer;
+}
+
+.delete-icon {
+  margin-top: 5px;
+  border: none;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  color: #f0f0f0;
+  background-color: #192636;
+  cursor: pointer;
+}
